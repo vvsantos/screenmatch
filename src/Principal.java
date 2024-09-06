@@ -1,3 +1,5 @@
+import br.com.alura.screenmathc.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
@@ -10,7 +12,7 @@ public class Principal {
         meuFilme.avalia(5);
         meuFilme.avalia(10);
 
-        System.out.println(meuFilme.somaDasAvaliacoes);
+        System.out.println("Total das Avalições: " meuFilme.getSomaDasAvaliacoes());
         System.out.println(meuFilme.totalAvaliacoes);
 
         System.out.println(meuFilme.pegamedia());
